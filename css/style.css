@@ -76,7 +76,7 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 b,
@@ -270,15 +270,12 @@ li {
 }
 
 .no-webp .clock {
-  background: radial-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.2)), url(../img/clock.png); }
-
-.webp {
-  background-size: cover;
+  background: radial-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.2)), url(../img/clock.png);
 }
 
-.box {
-  background-size: cover;
-}
+
+
+
 
 .webp .clock {
   position: absolute;
@@ -300,14 +297,14 @@ li {
   height: 320px;
   border-radius: 50%;
   -webkit-backdrop-filter: blur(25px);
-          backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
   border: 1px solid rgba(255, 255, 255, 0.5);
   -webkit-animation-name: animateClock;
-          animation-name: animateClock;
+  animation-name: animateClock;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes animateClock {
@@ -345,7 +342,7 @@ li {
   height: 15px;
   border-radius: 50%;
   -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   background-color: var(--color-white);
   z-index: 100;
 }
@@ -355,7 +352,7 @@ li {
 .seconds {
   position: absolute;
   -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .hr {
@@ -446,7 +443,7 @@ li {
   text-decoration: none;
   transition: 0.3s;
   -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   cursor: pointer;
 }
 
@@ -662,4 +659,6 @@ li {
   }
 }
 
-.webp .clock { background: radial-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.2)), url(../img/clock.webp); }
+.webp .clock {
+  background: radial-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.2)), url(../img/clock.webp);
+}
