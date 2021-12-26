@@ -25,5 +25,5 @@
 * [Gulp](https://webdesign-master.ru/blog/docs/gulp-documentation.html) - сборщик проекта.
 
 ## Вид интерфейса
-![Clock]()
+![Clock](img/imgClocksForGit.PNG)
 
